@@ -1,0 +1,12 @@
+
+# The Root Query for the application
+type Query {
+    productById(id: ID): Price
+}
+
+type Price {
+    id: ID!
+    amount: String!
+    detail: String!
+}
+
